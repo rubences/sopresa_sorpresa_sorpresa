@@ -1,5 +1,7 @@
 public public interface ProgramFactory {
-    Program createProgram();
+    ProgramFactory createProgram();
+
+    boolean willHalt();
 }
  {
     

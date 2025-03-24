@@ -1,5 +1,5 @@
 class HaltChecker {
-    public boolean willHalt(Program program) {
+    public boolean willHalt(ProgramFactory program) {
         return program.willHalt();
     }
 }
